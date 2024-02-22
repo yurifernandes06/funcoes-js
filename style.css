@@ -1,0 +1,56 @@
+:root {
+  --cor-primaria: #000000;
+  --cor-secundaria: #ffffff;
+  --cor-de-fundo: #69c4f6;
+}
+
+
+header {
+    text-align: center;
+    font-size: 30px;
+    color: var(--cor-primaria);
+  }
+  
+  main, html {
+    margin: 0;
+    padding: 0;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--cor-de-fundo);
+  }
+  
+  .container {
+    text-align: center;
+    color: var(--cor-secundaria);
+  }
+  
+  .button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 24px;
+    border: none;
+    background-color: var(--cor-primaria);
+    border-radius: 5px;
+    color: var(--cor-secundaria);
+  }
+  
+  .button:hover {
+    background-color:  var(--cor-de-fundo);
+  }
+
+  @media screen and (max-width: 600px) {
+    .container__titulo {
+      font-size: 40px;
+      align-items: center;
+      text-align: center;
+    }
+
+    .button {
+      font-size: 10px;
+      align-items: center;
+      text-align: center;
+    }
+
+  }
